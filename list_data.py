@@ -1,27 +1,4 @@
 #!/usr/bin/env python3
-#EXPERIMENT IN sandbox.py NOT HERE
-#Recipies format:
-#
-#    "Simple" : {
-#        "Ingredients" : [
-#            {
-#                "Name" : "Bananas",
-#                "Amount" : 1,
-#                "Units" : "None"
-#            },
-#            {
-#                "Name" : "Apples",
-#                "Amount" : 2,
-#                "Units" : "None"
-#            },
-#            {
-#                "Name" : "Pistachios",
-#                "Amount" : 1,
-#                "Units" : "cup"
-#            }
-#        ],
-#        "Happiness" : 100
-#    }
 import pandas as pd
 import json as js
 from pprint import pprint
@@ -48,3 +25,26 @@ for recipie in recipies.items():
     cents = cost % 100
 
     print("{:<20s}${:>01d}.{:>02d}\t{}g\t{}g".format(recipie[0] + ":", dollars, cents, protein, carbs))
+
+#Recipies format:
+#
+#    "Simple" : {
+#        "Ingredients" : [
+#            {
+#                "Name" : "Bananas",
+#                "Amount" : 1,
+#                "Units" : "None"
+#            },
+#            {
+#                "Name" : "Apples",
+#                "Amount" : 2,
+#                "Units" : "None"
+#            },
+#            {
+#                "Name" : "Pistachios",
+#                "Amount" : 1,
+#                "Units" : "cup"
+#            }
+#        ],
+#        "Happiness" : 100
+#    }
