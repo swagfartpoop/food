@@ -1,7 +1,5 @@
-Name,Cost (cents),Servings,Serving Size,Serving Size Units,Protein (g),Carbs (g),Fats (g),Calories,Happiness
-Limes one each,054,1,67,
-Organic Medium Hass Avocados three-five Count Bag,396,10,50,gram,1,4,8,80,50
-Bananas,019,1,1,gram,1,0,0,90,50
-Fresh Strawberries,297,3,144,gram,1,12,0,45,50
-Gala Apples 3 lbs,394,7,1,ounce,0,34,0,80,50
-Cantalope,288,9,160,gram,1,12,0,50,50
+Name,Brand,Location,Cost (cents),Servings,Serving Size,Serving Size Units,Protein (g),Carbs (g),Fats (g),Calories
+Banana,,,19,1,100,gram,1,0,0,90
+Strawberry,,,297,3,144,gram,1,12,0,45
+Gala Apple,,,394,7,6.81,ounce,0,34,0,80
+Cantalope,,,288,9,160,gram,1,12,0,50
