@@ -1,2 +1,42 @@
 {
+	"Banana" : {
+		"Ingredients" : [
+			{
+				"Name" : "Banana",
+				"Amount" : 100.0,
+				"Units" : "gram"
+			}
+		],
+		"Servings" : 1
+	},
+	"Strawberries" : {
+		"Ingredients" : [
+			{
+				"Name" : "Strawberry",
+				"Amount" : 144.0,
+				"Units" : "gram"
+			}
+		],
+		"Servings" : 1
+	},
+	"Gala Apple" : {
+		"Ingredients" : [
+			{
+				"Name" : "Gala Apple",
+				"Amount" : 6.81,
+				"Units" : "ounce"
+			}
+		],
+		"Servings" : 1
+	},
+	"Cantaloupe" : {
+		"Ingredients" : [
+			{
+				"Name" : "Cantaloupe",
+				"Amount" : 160.0,
+				"Units" : "gram"
+			}
+		],
+		"Servings" : 1
+	}
 }
