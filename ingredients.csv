@@ -1,5 +1,4 @@
 Name,Brand,Location,Cost (cents),Servings,Serving Size,Serving Size Units,Protein (g),Carbs (g),Fats (g),Calories
-<<<<<<< HEAD
 Banana,Walmart,3651 Classen Blvd,19,1,100,gram,1,0,0,90
 Fresh Strawberry one pound,Walmart,3651 Classen Blvd,297,3,144,gram,1,12,0,45
 Gala Apple,Walmart,3651 Classen Blvd,394,7,6.81,ounce,0,34,0,80
@@ -20,12 +19,6 @@ Frozen Whole Berry Medley sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,1
 Fruit Cocktail in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,.5,cup,0,16,0,60
 Clementines three pound,Walmart,3651 Classen Blvd,466,18,76,gram,1.6,26,.6,103
 Mixed Fruit Frozen sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,0,22,0,100
-=======
-Banana,,,19,1,100,gram,1,0,0,90
-Strawberry,,,297,3,144,gram,1,12,0,45
-Gala Apple,,,394,7,6.81,ounce,0,34,0,80
-Cantaloupe,,,288,9,160,gram,1,12,0,50
->>>>>>> origin/develop
 Sliced Peaches in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,.5,cup,1,14,0,60
 Mandarin Oranges fifthteen oz,Great Value,3651 Classen Blvd,128,3.5,.5,cup,1,9,0,35
 MIXED BELL PEPPER three PACK, Walmart,3651 Classen Blvd,337,3,148,gram,1.5,9,.5,46
