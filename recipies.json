@@ -9,10 +9,10 @@
 		],
 		"Servings" : 1
 	},
-	"Strawberries" : {
+	"Fresh Strawberries" : {
 		"Ingredients" : [
 			{
-				"Name" : "Strawberry",
+				"Name" : "Fresh Strawberries",
 				"Amount" : 144.0,
 				"Units" : "gram"
 			}

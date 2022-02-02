@@ -1,63 +1,56 @@
-Name,Brand,Location,Cost (cents),Servings,Serving Size,Serving Size Units,Protein (g),Carbs (g),Fats (g),Calories
-Banana,Walmart,3651 Classen Blvd,19,1,100,gram,1,0,0,90
-Fresh Strawberry one pound,Walmart,3651 Classen Blvd,297,3,144,gram,1,12,0,45
-Gala Apple,Walmart,3651 Classen Blvd,394,7,6.81,ounce,0,34,0,80
-Cantalope,Walmart,3651 Classen Blvd,288,9,160,gram,1,12,0,50
-Seedless Watermelon,Walmart,3651 Classen Blvd,698,60,152,gram,.9,11.5,.2,46
-Yellow Nectarines,Walmart,3651 Classen Blvd,119,Item,1,1,1.52,15.1,.5,63
-Pineapple,Walmart,3651 Classen Blvd,218,8,165,gram,1,13,0,50
-Fresh Blackberries six oz,Walmart,3651 Classen Blvd,238,1.2,140,gram,1,12,1,60
-Fuji Apples three pounds,Walmart,3651 Classen Blvd,497,7,6.8,ounce,1,34,0,130
-Lemons two pounds,Walmart,3651 Classen Blvd,394,16,58,gram,0,5,0,15
-Honeycrisp Apples,Walmart,3651 Classen Blvd,154,1.5,6.8,ounce,.39,20.6,.2,77
-Navel Oranges three pounds,Walmart,3651 Classen Blvd,598,12,1,cup,2,13.8,.7,62
-Limons,Walmart,3651 Classen Blvd,056,Item,67,gram,.47,7.1,.1,20
-Pineapple Chunks twenty oz,Great Value,3651 Classen Blvd,118,4,.5,cup,1,20,0,80
-Mango Chunks Frozen sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,1,29,.5,130
-Fruit Bowls Mandarin Oranges in 100 percent Fruit Juice Bowls four ounce four count,Dole,3651 Classen Blvd,266,4,1,cup,1,16,0,70
-Frozen Whole Berry Medley sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,1,17,0,70
-Fruit Cocktail in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,.5,cup,0,16,0,60
-Clementines three pound,Walmart,3651 Classen Blvd,466,18,76,gram,1.6,26,.6,103
-Mixed Fruit Frozen sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,0,22,0,100
-Sliced Peaches in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,.5,cup,1,14,0,60
-Mandarin Oranges fifthteen oz,Great Value,3651 Classen Blvd,128,3.5,.5,cup,1,9,0,35
-MIXED BELL PEPPER three PACK, Walmart,3651 Classen Blvd,337,3,148,gram,1.5,9,.5,46
-Celery Stalk,Dole,3651 Classen Blvd,134,6,28,gram,1,3,0,15
-Red Onion,Walmart,3651 Classen Blvd,078,Item,160,gram,1.76,14.9,.2,64
-Broccoli Crowns per lb,Walmart,3651 Classen Blvd,137,4,90,gram,2.6,6,.3,31
-Baby Carrots two lb bag,Bolthouse Farms,3651 Classen Blvd,194,10,85,gram,1,8,0,35
-Green Bell Pepper,Walmart,3651 Classen Blvd,072,Item,148,gram,1.28,6.9,.2,30
-Minced Garlic eight Oz,Great Value,3651 Classen Blvd,198,26,1,tsp,0,1,0,5
-Beefsteak Slicing Tomatoes,Walmart,3651 Classen Blvd,059,Item,180,gram,1.58,7,.4,32
-Steamable Broccoli Florets Frozen twelve oz,Great Value,3651 Classen Blvd,100,4,1,cup,1,4,0,25
-Cut Green Beans fourteen point five oz Can,Great Value,3651 Classen Blvd,050,3.5,.5,cup,0,4,0,20
-Original Diced Tomatoes and Green Chilies ten oz,ROTEL,3651 Classen Blvd,098,2.5,.5,cup,1,5,0,25
-Grape Tomatoes ten oz,Walmart,3651 Classen Blvd,248,Item,148,gram,1.3,5.8,.3,25
-Sugar Snap Peas eight oz,Marketside,3651 Classen Blvd,264,2.5,1,cup,2,6,0,35
-Green Onions Bunch,Walmart,3651 Classen Blvd,088,Item,160,gram,0,2,0,10
-Fresh Spinach ten oz,Marketside,3651 Classen Blvd,238,3.5,4,cup,2,3,0,20
-Mini Sweet Peppers sixteen oz,Nature Fresh,3651 Classen Blvd,298,5.25,85,gram,1,8,0,25
-Iceberg Lettuce,Walmart,3651 Classen Blvd,178,12,72,gram,.7,2.1,.1,10
-Cauliflower,Walmart,3651 Classen Blvd,288,6,85,gram,2,5,0,25
-Yellow Onions three lb Bag,Walmart,3651 Classen Blvd,198,12,110,gram,1,14,0,60
-Sweet Peas Canned Sweet Peas fifthteen oz Can,Great Value,3651 Classen Blvd,050,3.5,.5,cup,5,11,0,60
-Vegetable Oil fourty eight oz,Great Value,3651 Classen Blvd,298,96,1,tbsp,0,0,14,120
-Canola Oil,Great Value fourty eight oz,3651 Classen Blvd,288,96,1,tbsp,0,0,14,120
-Classic Olive Oil seventeen fl oz,Great Value,3651 Classen Blvd,252,33,1,tbsp,0,0,14,120
-Avocado Oil twenty five point five fl oz,Great Value,Great Value,3651 Classen Blvd,822,50,1,tbsp,0,0,14,130
-Country Potato Bread twenty four oz,Oroweat,3651 Classen Blvd,364,16,1,slice,3,22,1.5,100
-Country Buttermilk Bread twenty four oz,Oroweat,3651 Classen Blvd,364,16,1,slice,3,22,1.5,100
-Butterbread Bread twenty oz Loaf,Natures own,3651 Classen Blvd,282,22,1,slice,2,12,1,70
-Giant Enriched White Bread Loaf twenty four oz,Sunbeam,3651 Classen Blvd,268,14,2,slice,4,26,1.5,130
-Classic White Sandwich Bread Sliced White Bread twenty oz Loaf,Wonder Bread,3651 Classen Blvd,218,10,2,slice,5,29,1.5,140
-White Bread Loaf twenty oz,Great Value,3651 Classen Blvd,088,12,2,slice,4,24,1.5,120
-Artesano Bakery Bread twenty oz,Sara Lee,3651 Classen Blvd,298,15,1,slice,3,20,1.5,110
-Honey Wheat Bread No Artificial Colors or Flavors twenty two slices,Sara Lee,3651 Classen Blvd,264,22,1,slice,2,13,1,70
-one hundred percent Whole Wheat Whole Wheat Bread twenty oz Loaf,Natures own,3651 Classen Blvd,312,22,1,slice,4,11,.5,60
-Country White Bread twenty four oz,Oroweat,3651 Classen Blvd,354,18,1,slice,3,20,2,110
-Original Hawaiian Sweet Rolls twelve Count,Kings Hawaiian,3651 Classen Blvd,368,12,1,roll,3,16,2,90
-White Made with Whole Grain Bread No Artificial Colors or Flavors twenty Slices,Sara Lee,3651 Classen Blvd,274,10,2,slice,5,271.5,140
-Wheat Bread Loaf with Honey twenty oz,Great Value,3651 Classen Blvd,143,22,1,slice,5,28,1.5,70
-Whole Grains Oatnut Bread twenty four oz,Oroweat,3651 Classen Blvd,348,16,1,slice,3,20,1.5,120
-Organic Thin Sliced twenty one Whole Grains and Seeds Bread twenty point five oz,Daves Killer Bread,3651 Classen Blvd,518,21,1,slice,3,12,1,60
-Freshness Guaranteed French Bread fourteen oz,Walmart,3651 Classen Blvd,100,8,53,gram,5,28,1,120
+Name,Item Name,Brand,Location,Cost (cents),Servings per Item,Serving Size,Serving Size Units,Protein (g),Carbs (g),Fats (g),Calories
+Banana,,Walmart,3651 Classen Blvd,19,1,100,gram,1,0,0,90
+Fresh Strawberries,1 lbs,Walmart,3651 Classen Blvd,297,3,144,gram,1,12,0,45
+Gala Apple,,Walmart,3651 Classen Blvd,394,7,6.81,ounce,0,34,0,80
+Cantaloupe,,Walmart,3651 Classen Blvd,288,9,160,gram,1,12,0,50
+Seedless Watermelon,,Walmart,3651 Classen Blvd,698,60,152,gram,0.9,11.5,0.2,46
+Pineapple,,Walmart,3651 Classen Blvd,218,8,165,gram,1,13,0,50
+Fresh Blackberries,6 oz,Walmart,3651 Classen Blvd,238,1.2,140,gram,1,12,1,60
+Fuji Apples,3 lbs bag,Walmart,3651 Classen Blvd,497,7,6.8,ounce,1,34,0,130
+Lemons,2 lbs bag,Walmart,3651 Classen Blvd,394,16,58,gram,0,5,0,15
+Honeycrisp Apples,,Walmart,3651 Classen Blvd,154,1.5,6.8,ounce,0.39,20.6,0.2,77
+Navel Oranges,3 lbs bag,Walmart,3651 Classen Blvd,598,12,1,cup,2,13.8,0.7,62
+Pineapple Chunks,20 oz,Great Value,3651 Classen Blvd,118,4,0.5,cup,1,20,0,80
+Frozen Mango Chunks,16 oz,Great Value,3651 Classen Blvd,268,3,1,cup,1,29,0.5,130
+Fruit Bowls Mandarin Oranges,in 100 percent Fruit Juice Bowls four ounce four count,Dole,3651 Classen Blvd,266,4,1,cup,1,16,0,70
+Frozen Mixed Berries,Frozen Whole Berry Medley sixteen oz,Great Value,3651 Classen Blvd,268,3,1,cup,1,17,0,70
+Fruit Cocktail,in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,0.5,cup,0,16,0,60
+Clementines,3 lbs bag,Walmart,3651 Classen Blvd,466,18,76,gram,1.6,26,0.6,103
+Frozen Mixed Fruit,16 oz,Great Value,3651 Classen Blvd,268,3,1,cup,0,22,0,100
+Sliced Peaches,in 100 percent Juice fifthteen oz,Great Value,3651 Classen Blvd,100,3.5,0.5,cup,1,14,0,60
+Mandarin Oranges,15 oz,Great Value,3651 Classen Blvd,128,3.5,0.5,cup,1,9,0,35
+Mixed Bell Peppers,Three pack,Walmart,3651 Classen Blvd,337,3,148,gram,1.5,9,0.5,46
+Celery Stalk,,Dole,3651 Classen Blvd,134,6,28,gram,1,3,0,15
+Broccoli Crowns,???,Walmart,3651 Classen Blvd,137,4,90,gram,2.6,6,0.3,31
+Baby Carrots,2 lbs bag,Bolthouse Farms,3651 Classen Blvd,194,10,85,gram,1,8,0,35
+Minced Garlic,8 oz,Great Value,3651 Classen Blvd,198,26,1,tsp,0,1,0,5
+Steamable Broccoli Florets Frozen,12 oz,Great Value,3651 Classen Blvd,100,4,1,cup,1,4,0,25
+Cut Green Beans,14.5 oz can,Great Value,3651 Classen Blvd,50,3.5,0.5,cup,0,4,0,20
+Original Diced Tomatoes and Green Chilies,10 oz,ROTEL,3651 Classen Blvd,98,2.5,0.5,cup,1,5,0,25
+Sugar Snap Peas,8 oz,Marketside,3651 Classen Blvd,264,2.5,1,cup,2,6,0,35
+Fresh Spinach,10 oz,Marketside,3651 Classen Blvd,238,3.5,4,cup,2,3,0,20
+Mini Sweet Peppers,16 oz,Nature Fresh,3651 Classen Blvd,298,5.25,85,gram,1,8,0,25
+Iceberg Lettuce,,Walmart,3651 Classen Blvd,178,12,72,gram,0.7,2.1,0.1,10
+Cauliflower,,Walmart,3651 Classen Blvd,288,6,85,gram,2,5,0,25
+Yellow Onions,3 lbs bag,Walmart,3651 Classen Blvd,198,12,110,gram,1,14,0,60
+Canned Sweet Peas,15 oz can,Great Value,3651 Classen Blvd,50,3.5,0.5,cup,5,11,0,60
+Vegetable Oil,48 oz,Great Value,3651 Classen Blvd,298,96,1,tbsp,0,0,14,120
+Canola Oil,48 oz,Great Value,3651 Classen Blvd,288,96,1,tbsp,0,0,14,120
+Olive Oil,17 fl oz,Great Value,3651 Classen Blvd,252,33,1,tbsp,0,0,14,120
+Avocado Oil,25.5 fl oz,Great Value,3651 Classen Blvd,822,50,1,tbsp,0,0,14,130
+Country Potato Bread,24 oz,Oroweat,3651 Classen Blvd,364,16,1,slice,3,22,1.5,100
+Country Buttermilk Bread,24 oz,Oroweat,3651 Classen Blvd,364,16,1,slice,3,22,1.5,100
+Butterbread Bread,20 oz loaf,Nature's Own,3651 Classen Blvd,282,22,1,slice,2,12,1,70
+Sliced White Bread,24 oz loaf,Sunbeam,3651 Classen Blvd,268,14,2,slice,4,26,1.5,130
+Sliced White Bread,Classic White Sandwich Bread Sliced White Bread twenty oz Loaf,Wonder Bread,3651 Classen Blvd,218,10,2,slice,5,29,1.5,140
+Sliced White Bread,20 oz loaf,Great Value,3651 Classen Blvd,88,12,2,slice,4,24,1.5,120
+Artesano Bakery Bread,Artesano Bakery Bread 20 oz loaf,Sara Lee,3651 Classen Blvd,298,15,1,slice,3,20,1.5,110
+Honey Wheat Bread,Honey Wheat Bread No Artificial Colors or Flavors twenty two slices,Sara Lee,3651 Classen Blvd,264,22,1,slice,2,13,1,70
+Whole Wheat Bread,One hundred percent Whole Wheat Whole Wheat Bread 20 oz Loaf,Natures own,3651 Classen Blvd,312,22,1,slice,4,11,0.5,60
+Sliced White Bread,Country White Bread 24 oz,Oroweat,3651 Classen Blvd,354,18,1,slice,3,20,2,110
+Hawaiian Sweet Rolls,Original Hawaiian Sweet Rolls twelve Count,Kings Hawaiian,3651 Classen Blvd,368,12,1,roll,3,16,2,90
+White Made with Whole Grain Bread No Artificial Colors or Flavors twenty Slices,???,Sara Lee,3651 Classen Blvd,247,10,2,slice,5,271.5,140,140
+Wheat Bread Loaf with Honey,20 oz loaf,Great Value,3651 Classen Blvd,143,22,1,slice,5,28,1.5,70
+Whole Grains Oatnut Bread,24 oz loaf,Oroweat,3651 Classen Blvd,348,16,1,slice,3,20,1.5,120
+Whole Grains and Seeds Bread,Organic Thin Sliced twenty one Whole Grains and Seeds Bread 20.5 oz,Daves Killer Bread,3651 Classen Blvd,518,21,1,slice,3,12,1,60
+French Bread,Freshness Guaranteed French Bread 14 oz,Walmart,3651 Classen Blvd,100,8,53,gram,5,28,1,120

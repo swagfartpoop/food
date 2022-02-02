@@ -4,6 +4,8 @@ import json as js
 from pprint import pprint
 
 ingredients = pd.read_csv('ingredients.csv', index_col=0)
+pd.set_option('display.max_rows', None)
+#pd.set_option('display.max_columns', None)
 print(ingredients)
 print()
 recipies = None
@@ -21,7 +23,7 @@ for recipie in recipies.items():
     calories = 0
     for ingredient in recipie[1]["Ingredients"]:
         ingredient_data = ingredients.loc[ingredient["Name"]]
-        fraction_used = ingredient["Amount"] / ingredient_data["Serving Size"] / ingredient_data["Servings"]
+        fraction_used = ingredient["Amount"] / ingredient_data["Serving Size"] / ingredient_data["Servings per Item"]
         cost += ingredient_data["Cost (cents)"] * fraction_used
         protein += ingredient_data["Protein (g)"] * fraction_used
         carbs += ingredient_data["Carbs (g)"] * fraction_used
@@ -38,7 +40,6 @@ for recipie in recipies.items():
     dollar_format = "$" + str(dollars)
 
     print(("{:<" + str(recipie_name_length) + "s}{: >11s}.{:>02d}{: >10.2f}g{: >10.2f}g{: >10.2f}g{: >10.2f}{: >10d}").format(recipie_name, dollar_format, cents, protein, carbs, fats, calories, serves))
-#Oranges and Apples
 #Recipies format:
 #
 #    "Simple" : {
@@ -59,5 +60,5 @@ for recipie in recipies.items():
 #                "Units" : "cup"
 #            }
 #        ],
-#        "Happiness" : 100
+#        "Servings" : 1
 #    }
