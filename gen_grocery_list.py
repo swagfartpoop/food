@@ -50,10 +50,6 @@ class Shopping_List:
 
     def __repr__(self):
         self.calculate_data()
-        item_list_desc = ''
-        for item in self.items:
-            if self.items[item] > 0.001:
-                item_list_desc += '{: <30}:{: >10.2f}\n'.format(str(item)[:27], self.items[item])
         item_info_list = ''
         for item in self.items:
             if self.items[item] > 0.001:
@@ -62,14 +58,13 @@ class Shopping_List:
                 carbs = self.item_info[item]['carbs']
                 fats = self.item_info[item]['fats']
                 calories = self.item_info[item]['calories']
-                item_info_list += '{: <30}:{: >10.2f}{: >10.2f}{: >10.2f}{: >10.2f}{: >10.2f}\n'.format(str(item)[:27], cost, protein, carbs, fats, calories)
+                item_info_list += '{: <30}:{: >10.2f}{: >10.2f}{: >15.2f}{: >10.2f}{: >10.2f}{: >10.2f}{: >10.2f}\n'.format(item[:27], self.items[item], cost, cost * m.ceil(self.items[item]), protein, carbs, fats, calories)
         return '\n'.join([
             "Cost        {: >7.2f}".format(self.cost / 100.0),
             "Protein (g) {: >7.2f}".format(self.protein),
             "Carbs (g)   {: >7.2f}".format(self.carbs),
             "Fats (g)    {: >7.2f}".format(self.fats),
             "Calories    {: >7.2f}".format(self.calories),
-            item_list_desc,
             item_info_list,
             '({: >5.2}, {: >5.2}, {: >5.2}, {: >5.2}, {: >5.2})'.format(*self.cur_dir())
         ])
@@ -131,17 +126,18 @@ class Shopping_List:
     def remove_bad_items(self):
         while self.can_remove_items():
             temp_direction = self.cur_dir()
-            cur_direction = np.array([ -min(0.0, k) for k in temp_direction[1:] ])
+            cur_direction = np.array([ -min(0.0, k) for k in temp_direction ])
             mag = np.sqrt(sum(k ** 2 for k in cur_direction))
             cur_direction /= mag
             item_list = list(item_dict.items())
             weights = []
             for item in item_list:
                 weights.append(
-                    cur_direction[0] * item[1]['protein']
-                    + cur_direction[1] * item[1]['carbs']
-                    + cur_direction[2] * item[1]['fats']
-                    + cur_direction[3] * item[1]['calories']
+                    cur_direction[0] * item[1]['cost']
+                    + cur_direction[1] * item[1]['protein'] / self.params[1].center
+                    + cur_direction[2] * item[1]['carbs'] / self.params[2].center
+                    + cur_direction[3] * item[1]['fats'] / self.params[3].center
+                    + cur_direction[4] * item[1]['calories'] / self.params[4].center
                 )
             min_weight = min(weights)
             weights = [ k - min_weight for k in weights ]
@@ -165,11 +161,11 @@ class Shopping_List:
     def cur_dir(self):
         self.calculate_data()
         direction = np.array([
-            -1.0,
-            1.0 - (self.protein  / self.params[1].center),
-            1.0 - (self.carbs    / self.params[2].center),
-            1.0 - (self.fats     / self.params[3].center),
-            1.0 - (self.calories / self.params[4].center),
+            -0.5,
+            (1.0 - (self.protein  / self.params[1].center)) * 4.0,
+            (1.0 - (self.carbs    / self.params[2].center)),
+            (1.0 - (self.fats     / self.params[3].center)) * 2.0,
+            (1.0 - (self.calories / self.params[4].center)),
         ])
         mag = np.sqrt(sum(k ** 2 for k in direction))
         direction /= mag
@@ -179,7 +175,7 @@ no_recipies = True
 
 timeframe = 7.0 # days in week
 default_cost        = Parameter(1.0, timeframe *    0.0, 0.001, 0.001)
-default_protein     = Parameter(1.0, timeframe *  187.5, 0.001, 0.001)
+default_protein     = Parameter(1.0, timeframe *  112.5, 0.001, 0.001)
 default_carbs       = Parameter(1.0, timeframe *  450.0, 0.001, 0.001)
 default_fats        = Parameter(1.0, timeframe *   50.0, 0.001, 0.001)
 default_calories    = Parameter(1.0, timeframe * 3000.0, 0.007, 0.007)
@@ -215,7 +211,7 @@ if no_recipies:
     #pprint(item_dict)
     shopping_list = Shopping_List(item_dict, default_params)
     total_cost_function = float('inf')
-    for i in range(0, 100000):
+    for i in range(0, 10000):
         cur_item = shopping_list.select_random_item()
         shopping_list.add_item(cur_item, item_dict[cur_item]['amount'])
         shopping_list.remove_bad_items()
@@ -225,5 +221,4 @@ if no_recipies:
         #print(shopping_list)
     print('________________________________________________________________________________')
     print(shopping_list)
-    print(shopping_list.cost_function())
     print(default_params)
