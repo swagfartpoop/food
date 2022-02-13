@@ -12,7 +12,7 @@ Honeycrisp Apples,Apple,Walmart,3651 Classen Blvd,154,1.5,6.8,ounce,0.39,20.6,0.
 Navel Oranges 3 lbs bag,Orange,Walmart,3651 Classen Blvd,598,12,1,cup,2,13.8,0.7,62
 Pineapple Chunks 20 oz,Pineapple,Great Value,3651 Classen Blvd,118,4,0.5,cup,1,20,0,80
 Frozen Mango Chunks 16 oz,Mango chunks,Great Value,3651 Classen Blvd,268,3,1,cup,1,29,0.5,130
-Fruit Bowls Mandarin Oranges in 100 percent Fruit Juice Bowls four ounce four count,Mandarin Fruit Bowls,Dole,3651 Classen Blvd,266,4,1,cup,1,16,0,70
+Fruit Bowls Mandarin Oranges in 100 percent Fruit Juice Bowls four ounce four count,Mandarin Fruit Bowls,Dole,3651 Classen Blvd,266,4,1,cup,0,16,0,70
 Frozen Whole Berry Medley sixteen oz,Mixed Berries,Great Value,3651 Classen Blvd,268,3,1,cup,1,17,0,70
 Fruit Cocktail in 100 percent Juice fifthteen oz,Mixed Fruits,Great Value,3651 Classen Blvd,100,3.5,0.5,cup,0,16,0,60
 Clementines 3 lbs bag,Clementines,Walmart,3651 Classen Blvd,466,18,76,gram,1.6,26,0.6,103
@@ -49,15 +49,15 @@ Honey Wheat Bread No Artificial Colors or Flavors twenty two slices,Bread,Sara L
 One hundred percent Whole Wheat Whole Wheat Bread 20 oz Loaf,Bread,Natures own,3651 Classen Blvd,312,22,1,slice,4,11,0.5,60
 Country White Bread 24 oz,Bread,Oroweat,3651 Classen Blvd,354,18,1,slice,3,20,2,110
 Original Hawaiian Sweet Rolls twelve Count,Rolls,Kings Hawaiian,3651 Classen Blvd,368,12,1,roll,3,16,2,90
-White Made with Whole Grain Bread No Artificial Colors or Flavors twenty Slices,Bread,Sara Lee,3651 Classen Blvd,247,10,2,slice,5,271.5,140,140
+White Made with Whole Grain Bread No Artificial Colors or Flavors twenty Slices,Bread,Sara Lee,3651 Classen Blvd,247,10,2,slice,5,27,1.5,140
 Wheat Bread Loaf with Honey 20 oz loaf,Bread,Great Value,3651 Classen Blvd,143,22,1,slice,5,28,1.5,70
 Whole Grains Oatnut Bread 24 oz loaf,Bread,Oroweat,3651 Classen Blvd,348,16,1,slice,3,20,1.5,120
 Organic Thin Sliced twenty one Whole Grains and Seeds Bread 20.5 oz,Bread,Daves Killer Bread,3651 Classen Blvd,518,21,1,slice,3,12,1,60
 Freshness Guaranteed French Bread 14 oz,Bread,Walmart,3651 Classen Blvd,100,8,53,gram,5,28,1,120
-Hass Avocados,Avocados,Walmart,3651 Classen Blvd,088,1,1,Item,3,12.8,22,240
-Chia Seeds,Organic Chia Seeds 32 oz,Great Value,3651 Classen Blvd,1048,38,.8,ounce,4,10,8,120
+Hass Avocados,Avocados,Walmart,3651 Classen Blvd,88,1,1,Item,3,12.8,22,240
+Chia Seeds,Organic Chia Seeds 32 oz,Great Value,3651 Classen Blvd,1048,38,0.8,ounce,4,10,8,120
 Olives, Medium Pitted Black Olives 6 oz,Great Value,3651 Classen Blvd,147,11,5,Olives,0,0,3,25
-Sunflower kernels,Roasted & Salted Sunflower Kernels 16 oz,Great Value,3651 Classen Blvd,268,15,.25,cup,6,5,16,180
+Sunflower kernels,Roasted & Salted Sunflower Kernels 16 oz,Great Value,3651 Classen Blvd,268,15,0.25,cup,6,5,16,180
 Flax seeds,Organic Ground Flax Seed 16 Oz,Great Value,3651 Classen Blvd,260,35,2,tbsp,3,4,5,80
 Salmon,Fresh Atlantic Salmon Portions 0.70 - 1.1 lb,Atlantic Salmon,3651 Classen Blvd,796,4,4,ounce,23,19,15,240
 Turkey Slices,Oven Roasted Turkey Breast Ultra Thin Sliced Lunch Meat 16 oz,Hillshire Farm,3651 Classen Blvd,650,8,2,oz,10,2,1.5,60
